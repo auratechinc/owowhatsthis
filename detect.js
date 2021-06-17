@@ -38,10 +38,10 @@
     image(flippedVideo, 0, 0);
 
     // Draw the label
-    fill(255);
+    /*fill(255);
     textSize(16);
     textAlign(CENTER);
-    text(label, width / 2, height - 4);
+    text(label, width / 2, height - 4);*/
   }
 
   // Get a prediction for the current video frame
@@ -66,9 +66,9 @@
 
     if (label=="person") {
 
-      if (siren_Audio.paused) {
+      /*if (siren_Audio.paused) {
          siren_Audio.currentTime = 0;
-         siren_Audio.play();
+         siren_Audio.play();*/
       }
 
       document.getElementById("status").innerHTML = `<h3 style="color: red;"><i class="fa fa-exclamation-triangle"></i></h3>
